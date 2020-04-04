@@ -40,10 +40,6 @@ export function NoteForm({
 
 
 
-
-
-
-
   return (
     <Container>
       <Form onSubmit={onSubmitBtn}>
@@ -192,9 +188,9 @@ input {
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    margin: 10px 0;
+    margin: 10px 5px 0 5px;
     background-color: ${p => p.color};
-    border: 4px solid transparent;
+    border: 3px solid transparent;
     transition: all 0.3s ease;
   }
   input:checked + span {
