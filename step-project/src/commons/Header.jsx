@@ -60,15 +60,26 @@ const Logo = styled.div`
   margin-left: 50px;
   font-family: "Ubuntu", sans-serif;
   font-size: 17px;
+  border-right: 5px solid;
+  padding: 8px;
+  
   color: ${Colours.primary};
+  &:hover {
+  left: 50%;
+  color:orange;
+  cursor: pointer;
+  margin-left: -3px;
+  top: 0;
+    
+    }
 `;
 
 const StyledNavLink = styled(NavLink)`
   color: ${p => p.border};
   text-decoration: none;
-  font-family: "Segoe UI";
+  
   outline: none;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
   margin: 0 25px;
   padding: 5px 15px;
   border: 2px solid ${p => p.border};
@@ -76,25 +87,14 @@ const StyledNavLink = styled(NavLink)`
   &.active {
     background-color: ${p => p.border};
     color: #fff;
+    transform:translateY(-3px)
+    border-left: 6px solid ;
+    position: absolute;
+    left: 50%;
+    
   };
   &:hover {
-    /* transform:translateY(-3px); */
-    background-color: #CD33DD;
-    color: white;
+    transform:translateY(3px)
+    background-color: orange
   }
 `;
-
-
-
-// const Icon = styled.span`
-//   display: inline-flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 30px;
-//   height: 30px;
-//   text-align: center;
-//   margin: -8px 5px;
-//   img {
-//     width: 50%;
-//   }
-// `;
