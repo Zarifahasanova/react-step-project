@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
-// import { Route } from 'react-router-dom';
 import { NotesContext } from '../../context/notes';
-import { Note, SingleNote } from '../../components';
+import { Note } from '../../components';
 import { Row, Container, Loading } from '../../commons';
 
 export function HomePage() {
@@ -30,18 +29,5 @@ export function HomePage() {
                 
         </Container>
                 
-     
-   
-   /*   <div>
-     {!!notes.length && 
-         <SingleNoteItem id={notes[0].id}
-            title={notes[0].title}
-            text={notes[0].text}
-            date={notes[0].date}
-            color={notes[0].color}
-            isCompleted={notes[0].isCompleted} />
-     }
-      </div>
-      */
     )
 }

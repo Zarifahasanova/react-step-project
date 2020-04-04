@@ -28,6 +28,6 @@ export function Create({ history }) {
 
   return (
     
-    <NoteForm header="Create Note" onSubmit={onSubmit}/>
+    <NoteForm isEdit={false} header="Create Note" onSubmit={onSubmit}/>
   );
 }
