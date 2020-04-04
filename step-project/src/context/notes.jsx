@@ -37,7 +37,7 @@ const archiveNoteA = payload => ({
   payload
 });
 
-// to use  reducer
+// Reducer
 function notesReducer(state, { type, payload }) {
   switch (type) {
     case ADD_NOTE:
@@ -82,7 +82,7 @@ function notesReducer(state, { type, payload }) {
       return state;
   }
 }
-// connected notes
+
 const initialState = {
   notes: []
 };

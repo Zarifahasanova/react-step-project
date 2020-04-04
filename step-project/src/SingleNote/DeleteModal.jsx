@@ -21,12 +21,10 @@ const ModalWindow = styled.div`
     flex-direction: column;
     justify-content:space-between;
     position: absolute;
-    margin: 200px auto 0 auto;
-    width: 400px;
+    margin: 80px auto 0 auto;
     height: 280px;
-    background: ${Colours.headerBackground};
+    background: #fff;
     padding: 20px 15px;
-    
     box-shadow: 0 0 25px 0px rgba(0,0,0,.3);
 `
 
@@ -35,8 +33,8 @@ const Header = styled.header`
     font-size:20px;
     margin: 0 auto ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: ${Colours.primary};
-    border-bottom: 1px solid ${Colours.primary}
+    color: black;
+    border-bottom: 1px solid black;
 `
 
 const BtnClick = styled.button`
@@ -44,17 +42,17 @@ const BtnClick = styled.button`
     height: 40px;
     margin-bottom: 35px;
     outline: none;
-    border: 1px solid ${Colours.primary};
+    border: 1px solid #007bff;
     border-radius: 4px;
     
     font-size: 16px;
     font-weight: 700;
-    color:  ${Colours.primary};
+    color:  #fff;
     cursor: pointer;
     transition: all .3s ease;
-    background-color: ${Colours.deletebtnBackground};
+    background-color: #007bff;
     &:hover {
-    background-color: ${Colours.primary};
+    background-color: #0062cc;
     color: #fff;
   };
 `

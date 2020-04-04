@@ -67,7 +67,7 @@ const SingleNoteContainer = styled.div`
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
   z-index: -1;
 `;
 
@@ -76,14 +76,14 @@ const SingleItem = styled.div`
   border-radius: 20px;
   height: 480px;
   width: calc(100% / 3 * 2 );
-  background-color: ${Colours.btnBackground};
-  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  background-color: #E7DFE5;;
+  /* box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5); */
   overflow: hidden;
 
 `;
 const Header = styled.div`
   background-color: ${p => p.color};
-  margin: 0 auto 0 auto;
+  margin: -30px auto;
   font-size: 19px;
   border-radius: 20px 20px 0 0;
   color: white;
@@ -129,7 +129,9 @@ const BtnClick = styled.button`
   margin-bottom: 12px;
   &:hover {
     color: ${Colours.primary};
-    border-color: ${Colours.primary};
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    background-color: ${Colours.primary};
+    color: #fff;
+    transition: all .3s ease-out;
+    /* box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); */
   }
 `;

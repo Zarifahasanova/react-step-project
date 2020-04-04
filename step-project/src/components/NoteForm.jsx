@@ -237,7 +237,7 @@ const Button = styled.button`
     font-weight: bold;
     border-radius: 10px;
     background-color: grey;
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
     cursor: pointer;
   }
 `;
