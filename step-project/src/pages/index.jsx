@@ -1,3 +1,3 @@
-export {HomePage} from './Homepage';
-export {Create} from './Create';
-export {Archive} from './Archive';
+export {HomePage} from './Homepage/index';
+export {Create} from './Create/index';
+export {Archive} from './Archive/index';

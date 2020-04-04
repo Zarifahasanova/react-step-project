@@ -10,7 +10,14 @@ function fetchFabric(endpoint, method) {
         }
 
         let getParams = '';
-        if (method !== 'GET') {
+        if (method === 'DELETE') {
+            options.method = method;
+            getParams += `/${params['id']}`;
+        } else if (method === 'PUT') {
+            options.method = method;
+            getParams += `/${params['id']}`;
+            options.body = JSON.stringify(params);
+        } else if (method !== 'GET') {
             options.method = method;
             options.body = JSON.stringify(params);
         } else {
