@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 // import { Route } from 'react-router-dom';
 import { NotesContext } from '../../context/notes';
-import { Note, SingleNote } from '../../components';
+import { Note } from '../../components';
 import { Row, Container, Loading } from '../../commons';
 
 export function HomePage() {

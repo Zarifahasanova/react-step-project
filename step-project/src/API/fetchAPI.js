@@ -1,4 +1,4 @@
-const domain = 'http://localhost:3000';
+const domain = 'http://localhost:3001';
 
 function fetchFabric(endpoint, method) {
     return async(params = {}) => {
@@ -27,3 +27,5 @@ function fetchFabric(endpoint, method) {
 
 export const getNotes = fetchFabric('/notes', "GET");
 export const addNoteApi = fetchFabric('/notes', "POST");
+export const deleteNoteApi = fetchFabric('/notes', "DELETE");
+export const editNoteApi = fetchFabric('/notes', "PUT");

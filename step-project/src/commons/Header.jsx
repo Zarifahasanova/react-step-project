@@ -78,8 +78,9 @@ const StyledNavLink = styled(NavLink)`
     color: #fff;
   };
   &:hover {
-    transform:translateY(-3px)
-    background-color: orange
+    /* transform:translateY(-3px); */
+    background-color: #CD33DD;
+    color: white;
   }
 `;
 

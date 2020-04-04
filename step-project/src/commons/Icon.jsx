@@ -18,7 +18,6 @@ const Container = styled.span`
   height: 30px;
   border-radius: 100%;
   text-align: center;
-  
   line-height: 30px;
   margin: -8px 0;
 img {

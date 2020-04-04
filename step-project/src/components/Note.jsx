@@ -25,7 +25,7 @@ export function Note({id, title, text, date, color, isCompleted}) {
 const NoteContainer = styled(Link)`
     display:block;
     text-decoration: none;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); */
     background-color: ${Colours.stickyBackground};
     transition: all .3s ease;
     height: 150px;
